@@ -25,7 +25,7 @@ class Main
         int lo=0,hi=100000,ans=0;
         while(lo<=hi)
         {
-            int mid=lo+hi>>1;
+            int mid=(lo+hi)/2;
             int res=check(mid,a,n);
             if(res<X)
             {
